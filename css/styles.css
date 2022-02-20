@@ -223,16 +223,16 @@ flex-basis: calc((100% - 60px) / 3);
   width: 1px;
   height: 1px;
   margin: -1px;
-  padding: 0;
-  overflow: hidden;
   border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
-}
-
-.section-team {
-  justify-content: center;
+  overflow: hidden;
 
 }
+
+
 .emloees-card {
   display: flex;
   justify-content: space-between;
@@ -400,9 +400,7 @@ flex-basis: calc((100% - 60px) / 3);
 .progects-content-wrapper {
   padding: 20px 24px;
 }
-.icon-description {
-  margin-top: 4px;
-}
+
 .main-section {
   margin-bottom: 94px;
 }
